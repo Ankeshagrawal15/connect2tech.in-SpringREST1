@@ -15,11 +15,12 @@
   <classpathentry kind="var" path="M2_REPO/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar" sourcepath="M2_REPO/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/servlet/jstl/1.2/jstl-1.2.jar" sourcepath="M2_REPO/javax/servlet/jstl/1.2/jstl-1.2-sources.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-jdbc/4.0.0.RELEASE/spring-jdbc-4.0.0.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-jdbc/4.0.0.RELEASE/spring-jdbc-4.0.0.RELEASE-sources.jar">
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/4.0.0.RELEASE/spring-tx-4.0.0.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-tx/4.0.0.RELEASE/spring-tx-4.0.0.RELEASE-sources.jar">
     <attributes>
-      <attribute value="jar:file:/Users/ankesh.agrawal/.m2/repository/org/springframework/spring-jdbc/4.0.0.RELEASE/spring-jdbc-4.0.0.RELEASE-javadoc.jar!/" name="javadoc_location"/>
+      <attribute value="jar:file:/Users/ankesh.agrawal/.m2/repository/org/springframework/spring-tx/4.0.0.RELEASE/spring-tx-4.0.0.RELEASE-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/4.0.0.RELEASE/spring-beans-4.0.0.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-beans/4.0.0.RELEASE/spring-beans-4.0.0.RELEASE-sources.jar">
     <attributes>
       <attribute value="jar:file:/Users/ankesh.agrawal/.m2/repository/org/springframework/spring-beans/4.0.0.RELEASE/spring-beans-4.0.0.RELEASE-javadoc.jar!/" name="javadoc_location"/>
@@ -35,12 +36,11 @@
       <attribute value="jar:file:/Users/ankesh.agrawal/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/4.0.0.RELEASE/spring-tx-4.0.0.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-tx/4.0.0.RELEASE/spring-tx-4.0.0.RELEASE-sources.jar">
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-jdbc/4.0.0.RELEASE/spring-jdbc-4.0.0.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-jdbc/4.0.0.RELEASE/spring-jdbc-4.0.0.RELEASE-sources.jar">
     <attributes>
-      <attribute value="jar:file:/Users/ankesh.agrawal/.m2/repository/org/springframework/spring-tx/4.0.0.RELEASE/spring-tx-4.0.0.RELEASE-javadoc.jar!/" name="javadoc_location"/>
+      <attribute value="jar:file:/Users/ankesh.agrawal/.m2/repository/org/springframework/spring-jdbc/4.0.0.RELEASE/spring-jdbc-4.0.0.RELEASE-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-orm/4.0.0.RELEASE/spring-orm-4.0.0.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-orm/4.0.0.RELEASE/spring-orm-4.0.0.RELEASE-sources.jar">
     <attributes>
       <attribute value="jar:file:/Users/ankesh.agrawal/.m2/repository/org/springframework/spring-orm/4.0.0.RELEASE/spring-orm-4.0.0.RELEASE-javadoc.jar!/" name="javadoc_location"/>

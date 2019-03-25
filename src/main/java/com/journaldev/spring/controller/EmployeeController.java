@@ -13,6 +13,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -51,6 +52,7 @@ public class EmployeeController {
 //		
 //	}
 	
+	@Transactional
 	@RequestMapping(value="/rest/emp/dummy",method=RequestMethod.GET)
 	public @ResponseBody  Employee getDummyEmployee()
 	{
@@ -58,7 +60,7 @@ public class EmployeeController {
 		
 		emp1.setCellphone("1113829");
 		emp1.setFirstname("Mohit");
-		emp1.setId(2l);
+		//emp1.setId(2l);
 		emp1.setLastname("patil");
 		emp1.setBirthDate(new java.sql.Date(1994, 06, 23));
 		
@@ -66,7 +68,7 @@ public class EmployeeController {
 		Employee2 emp2=new Employee2();
 		emp2.setCellphone("1113829");
 		emp2.setFirstname("Mohit");
-		emp2.setId(1l);
+		//emp2.setId(1l);
 		emp2.setLastname("patil");
 		emp2.setBirthDate(new java.sql.Date(2004, 06, 23));
 		

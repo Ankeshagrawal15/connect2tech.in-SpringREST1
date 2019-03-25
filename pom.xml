@@ -16,7 +16,14 @@
 		<jackson.databind-version>2.2.3</jackson.databind-version>
 	</properties>
 	<dependencies>
-
+	
+		<!-- Spring Transaction -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+	
 		<!-- Start hibernate RESTing -->
 
 		<dependency>
