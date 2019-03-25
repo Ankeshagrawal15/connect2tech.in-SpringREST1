@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.c2t.annotation.basic.Employee;
+import com.c2t.annotation.basic.Employee2;
 import com.c2t.annotation.basic.EmployeeVo;
 import com.journaldev.service.EmployeeService;
 import com.sun.media.jfxmedia.logging.Logger;
@@ -53,24 +54,37 @@ public class EmployeeController {
 	@RequestMapping(value="/rest/emp/dummy",method=RequestMethod.GET)
 	public @ResponseBody  Employee getDummyEmployee()
 	{
-		Employee emp=new Employee();
-		emp.setCellphone("90383839");
-		emp.setFirstname("Hiren");
-		emp.setId(2l);
-		emp.setLastname("Sonagara");
-		emp.setBirthDate(new java.sql.Date(1996, 06, 23));
+		Employee emp1=new Employee();
+		
+		emp1.setCellphone("1113829");
+		emp1.setFirstname("Mohit");
+		emp1.setId(2l);
+		emp1.setLastname("patil");
+		emp1.setBirthDate(new java.sql.Date(1994, 06, 23));
+		
+		
+		Employee2 emp2=new Employee2();
+		emp2.setCellphone("1113829");
+		emp2.setFirstname("Mohit");
+		emp2.setId(1l);
+		emp2.setLastname("patil");
+		emp2.setBirthDate(new java.sql.Date(2004, 06, 23));
 		
 		Session s=sf.openSession();
 		s.beginTransaction();
-		s.save(emp);
+		s.save(emp1);
+		s.save(emp2);
+		
 		s.getTransaction().commit();
 		
 
 
 		//empData.put(1,emp);
-		return emp;
+		return emp1;
 	
 	}
+	
+	
 	@RequestMapping(value="/get",method=RequestMethod.GET)
 	public @ResponseBody  Employee getDummyEmployee1()
 	{
